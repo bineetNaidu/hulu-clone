@@ -1,0 +1,5 @@
+.app {
+  width: 100vw;
+  background-image: linear-gradient(90deg, #051421, #042727);
+  min-height: 100vh;
+}

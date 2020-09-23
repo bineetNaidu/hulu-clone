@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 
 // STATICS
 import "./App.css";
@@ -6,7 +7,11 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      <h1>Yo Lets Build a HULU CLONE</h1>
+      <Header />
+
+      {/* Nav */}
+
+      {/* MoviesLists */}
     </div>
   );
 }
