@@ -2,7 +2,7 @@ import axios from "axios";
 import { API_KEY } from "./env";
 
 export default {
-  fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
+  fetchTrending: `s`,
   fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
   fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
   fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
@@ -17,5 +17,5 @@ export default {
 
 // BASE URL
 export const instance = axios.create({
-  baseURL: "http://api.themoviedb.org/3",
+  baseURL: "https://api.themoviedb.org/3",
 });
