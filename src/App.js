@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Navbar from "./Navbar";
+import MoviesLists from "./MoviesLists";
 
 // STATICS
 import "./App.css";
@@ -10,8 +11,7 @@ function App() {
     <div className="app">
       <Header />
       <Navbar />
-
-      {/* MoviesLists */}
+      <MoviesLists />
     </div>
   );
 }
